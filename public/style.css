@@ -5,15 +5,22 @@
     justify-content: center;
     gap: 2rem;
     background-color: snow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.Main h1{
+    background-color: rgba(0, 0, 0, 0.881);
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
 .card{
     display: flex;
     flex-direction: column;
     background-color: slategray;
     border-radius: 10px;
     width: 30%;
-    min-width: 15%;
+    min-width: 17rem;
 }
 
 .bottom-section{
@@ -36,7 +43,7 @@
 }
 
 .left-section{
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     color: black;
 }
 
@@ -48,8 +55,8 @@
 }
 
 .right-section img{
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 100%;
 }

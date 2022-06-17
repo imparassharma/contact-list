@@ -7,6 +7,7 @@ import pic3 from "../images/SRK.jpg";
 function Main(){
     return(
         <div className="Main">
+        <h1>CONTACT LIST</h1>
         <Card
             name={contacts[0].name}
             img={pic1}
